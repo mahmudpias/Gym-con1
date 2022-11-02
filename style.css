@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.second {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+}
+
+.list {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    padding: 20px;
+}
+
+.li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.half {
+    width: 50%;
+}
+
+.fitness {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 10px;
+    padding: 20px;
+}
+
+.li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.sec1 {
+    width: 55%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.sec2 {
+    width: 35%;
+}
+
+#t1 {
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#t2 {
+    color: white;
+    font-size: 70px;
+    padding: 10px;
+}
+
+#t3 {
+    color: gray;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn1 {
+    padding: 18px 36px;
+    margin: 20px;
+    background-image: linear-gradient(to right, rgb(210, 83, 104), red);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-image: linear-gradient(black, rgb(58, 58, 58));
+}
+
+.cardtitle {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0;
+    padding: 50px 0;
+}
+
+.card1 {
+    height: 220px;
+    width: 300px;
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 15px 15px 40px gray;
+    margin: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    transition: 50ms;
+}
+
+.cardtext {
+    text-align: justify;
+}
+
+.cardimg {
+    width: 50px;
+}
+
+.card1:hover {
+    border: 4px solid rgb(98, 1, 1);
+    box-shadow: 8px 8px 30px black;
+    margin-top: -20px;
+    transition: 50ms;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abouth1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: whites;
+    padding: 30px;
+}
+
+.aboutp {
+    color: gray;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.half {
+    width: 50%;
+}
+
+.left {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.right {
+    margin-right: 60px;
+    padding-right: 150px;
+    text-align: justify;
+}
+
+ul li {
+    font-size: 30px;
+}
+
+ul {
+    margin: 20px;
+}
+
+.aboutimg {
+    transform: skewY(-15deg);
+}
+
+.fourth {
+    background-color: black;
+    color: white;
+}
+
+.third {
+    margin-bottom: 200px;
+}
+
+.fifth {
+    height: 450px;
+    width: 1300px;
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fifth div h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fifth div button {
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.fifth div button:hover {
+    color: white;
+}
+
+.box1 {
+    height: 700px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 50px black;
+    margin: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    transition: 50ms;
+}
+
+.servimg {
+    margin: 0;
+    padding: 0;
+    width: 451px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.box1:hover {
+    box-shadow: 30px 30px 150px black;
+    margin-top: -20px;
+    transition: 50ms;
+}
+
+.box1 h1 {
+    margin-top: 20px;
+}
+
+.box1 div {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.box1 div a {
+    text-decoration: none;
+}
+
+.box1 div a h1 {
+    color: red;
+    font-weight: 200;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer div a {
+    font-weight: bold;
+    margin: 0 15px;
+}
